@@ -1,7 +1,5 @@
-# Compiled class file
 *.class
 
-# Log files
 *.log
 *.txt
 pg_error_log.txt
@@ -10,13 +8,10 @@ error_log.txt
 db_test_result.txt
 setup_mysql.sql
 
-# BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -25,10 +20,8 @@ setup_mysql.sql
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -40,7 +33,6 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-# Frontend (Node/React)
 node_modules/
 dist/
 dist-ssr/
@@ -48,7 +40,6 @@ dist-ssr/
 .env
 .env.*
 
-# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -56,15 +47,12 @@ dist-ssr/
 !.vscode/extensions.json
 *.code-workspace
 
-# IDE - IntelliJ
 .idea/
 *.iml
 *.iws
 
-# OS files
 .DS_Store
 Thumbs.db
 
-# Database
 /data/
 *.db
