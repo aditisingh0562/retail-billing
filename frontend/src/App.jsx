@@ -146,7 +146,7 @@ function App() {
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
       <nav style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2rem', alignItems: 'center', background: '#1e293b', padding: '1rem 2rem', borderRadius: '1rem' }}>
-        <h1 style={{ background: 'linear-gradient(to right, #38bdf8, #818cf8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontSize: '1.5rem' }}>Retail Lite</h1>
+        <h1 style={{ background: 'linear-gradient(to right, #38bdf8, #818cf8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontSize: '1.5rem' }}>Retail Billing</h1>
         
         <div style={{ position: 'relative' }}>
           <button 
