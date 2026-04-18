@@ -2,7 +2,7 @@
 
 A professional-grade, high-performance Retail Billing application built with a modern full-stack architecture. I built this system to bridge the gap between complex enterprise features and user-friendly design. By integrating a robust PostgreSQL database with a premium React interface, I created a tool that ensures reliable data persistence and security while remaining snappy and intuitive.
 
-## 🚀 Key Features
+## Key Features
 - **Professional Persistence**: Powered by PostgreSQL for reliable, enterprise-grade data management.
 - **Secure by Default**: Every action is shielded by modern JWT-based authentication.
 - **Human-Centric Design**: A stunning dark-mode interface built for clarity, speed, and visual excellence.
@@ -10,7 +10,7 @@ A professional-grade, high-performance Retail Billing application built with a m
 - **Billing Engine**: Automated invoice generation with instant stock reduction.
 - **Profile Management**: Secure account management with detailed user profiles and invoice history.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### **Frontend (The User Interface)**
 * **React (Vite)**: For a fast, snappy single-page application (SPA).
@@ -27,7 +27,7 @@ A professional-grade, high-performance Retail Billing application built with a m
 
 ---
 
-## 🏃 Running the Project
+##  Running the Project
 
 ### Prerequisites
 - Java 17+
@@ -50,7 +50,7 @@ A professional-grade, high-performance Retail Billing application built with a m
 
 ---
 
-## 🔑 Default Credentials
+## Default Credentials
 - **Username**: `admin`
 - **Password**: `admin123`
 *(Note: You can also register a new account directly on the login screen).*
