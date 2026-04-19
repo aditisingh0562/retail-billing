@@ -10,7 +10,7 @@ A professional-grade, high-performance Retail Billing application built with a m
 - **Billing Engine**: Automated invoice generation with instant stock reduction.
 - **Profile Management**: Secure account management with detailed user profiles and invoice history.
 
-## Technology Stack
+##  Technology Stack
 
 ### **Frontend (The User Interface)**
 * **React (Vite)**: For a fast, snappy single-page application (SPA).
@@ -27,6 +27,36 @@ A professional-grade, high-performance Retail Billing application built with a m
 
 ---
 
+##  Project Structure
+
+```text
+retail-billing-lite/
+├── backend/                # Spring Boot REST API
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/retailbilling/
+│   │   │   │   ├── config/      # Configuration (Security, CORS, DataInit)
+│   │   │   │   ├── controller/  # REST API Endpoints
+│   │   │   │   ├── entity/      # JPA Hibernate Entities
+│   │   │   │   ├── exception/   # Custom Error Handlers
+│   │   │   │   ├── repository/  # Data Access Layer (JPA)
+│   │   │   │   ├── security/    # JWT & Filter Logic
+│   │   │   │   ├── service/     # Business Logic Layer
+│   │   │   │   └── RetailBillingApplication.java
+│   │   │   └── resources/       # application.properties & Static Assets
+│   │   └── test/                # Unit & Integration Tests
+│   └── pom.xml                  # Maven Dependencies
+├── frontend/               # React SPA (Vite)
+│   ├── src/
+│   │   ├── App.jsx              # Main Application Logic & UI
+│   │   └── main.jsx             # Entry Point
+│   ├── index.html               # Base HTML Template
+│   ├── package.json             # NPM Dependencies
+│   └── vite.config.js           # Vite Configuration
+└── README.md                # Project Documentation
+```
+
+---
 ##  Running the Project
 
 ### Prerequisites
@@ -50,7 +80,7 @@ A professional-grade, high-performance Retail Billing application built with a m
 
 ---
 
-## Default Credentials
+##  Default Credentials
 - **Username**: `admin`
 - **Password**: `admin123`
 *(Note: You can also register a new account directly on the login screen).*
