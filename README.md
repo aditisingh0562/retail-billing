@@ -84,3 +84,10 @@ retail-billing-lite/
 - **Username**: `admin`
 - **Password**: `admin123`
 *(Note: You can also register a new account directly on the login screen).*
+
+---
+
+##  Author
+
+- **GitHub**: [@aditisingh0562](https://github.com/aditisingh0562)
+
